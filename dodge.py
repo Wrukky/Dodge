@@ -28,7 +28,9 @@ star_img = pygame.transform.scale(star_img, (40, 40))
 lightning_img = pygame.transform.scale(lightning_img, (50, 50))
 heart_img = pygame.transform.scale(heart_img, (30, 30))
 info_icon = pygame.transform.scale(info_icon, (40, 40))
+background_img = pygame.image.load("light pink.jpeg")
 background_img = pygame.transform.scale(background_img, (WIDTH, HEIGHT))
+
 
 # Font setup
 font = pygame.font.Font(None, 36)
@@ -178,4 +180,3 @@ pygame.display.flip()
 time.sleep(3)
 
 pygame.quit()
-
