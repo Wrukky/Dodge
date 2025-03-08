@@ -157,7 +157,7 @@ while running:
     draw_objects(lightnings)
 
     # Draw score and lives
-    score_text = font.render(f"Score: {score}", True, (255, 255, 255))
+    score_text = font.render(f"Score: {score}", True, (0, 0, 0))  # Black text
     screen.blit(score_text, (10, 10))
 
     for i in range(lives):
